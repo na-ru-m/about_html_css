@@ -28,8 +28,10 @@
     </h1>
 
     <h1>Let's go to <a href="https://www.google.com/">google!</a></h1>
-
     
+    <span></span>''(インライン要素のフリータグ)
+    <div></div>''(ブロック要素のフリータグ)
+
 
 </body>
 
