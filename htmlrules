@@ -11,21 +11,25 @@
 </head>
 <body>''(bodyタグの中に実際に目に見える情報を記述していく。閉じタグも。)
 
-    this is a pen
+    this is a pen''(単純に書くと表示される)
 
-    <h1>this is a pen</h1>
+    <h1>this is a pen</h1>''(hタグ。見出し用。)
     <h2>this is a pen</h2>
     <h3>this is a pen</h3>
     <h4>this is a pen</h4>
 
-    <a href="https://www.google.com/">his is a pen</a>
-    <p><a href="https://www.google.com/">this is a pen</a></p>
-    <h1>
+    <a href="https://www.google.com/">his is a pen</a>''(aタグ。リンク用タグ。hrefの後にURLを記載。タグ間にテキスト記載。)
+
+    <p><a href="https://www.google.com/">this is a pen</a></p>''(pタグ。段落タグ。左記はpタグの中にaタグが入っている。this is a pen全体にリンクがある。)
+
+    <h1>''(見出しの中にリンクがあり、penにのみリンクがある。)
         this is a
         <a href="https://www.google.com/">pen</a>
     </h1>
 
     <h1>Let's go to <a href="https://www.google.com/">google!</a></h1>
+
+    
 
 </body>
 
