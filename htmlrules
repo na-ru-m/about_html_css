@@ -1,36 +1,36 @@
 ルール
-<!DOCTYPE html>''(htmlの宣言。)
-<html>''(2行目に記載。閉じタグも。)
-<head>''(HTML文書の冒頭に配置され、その文書自体に関する**メタデータ（情報）**を定義するタグ。閉じタグも。)
-    <meta charset="utf-8">''(文字コードは"utf-8"ですよ。)
-    <meta name="viewport" content="width=device-width, initial-acal=1.0">''(metaタグ＝ビューポート（ユーザーがウェブページを見るためのウィンドウ領域）をどのように制御するかを指示するもの。
+<!DOCTYPE html><!--htmlの宣言。-->
+<html><!--2行目に記載。閉じタグも。-->
+<head><!--HTML文書の冒頭に配置され、その文書自体に関する**メタデータ（情報）**を定義するタグ。閉じタグも。-->
+    <meta charset="utf-8"><!--文字コードは"utf-8"ですよ。-->
+    <meta name="viewport" content="width=device-width, initial-acal=1.0"><!--metaタグ＝ビューポート（ユーザーがウェブページを見るためのウィンドウ領域）をどのように制御するかを指示するもの。
                                                                         width=device-width＝ビューポートの幅を、そのデバイスの実際の画面幅（デバイス非依存ピクセル）に合わせるよう指示。
-                                                                        initial-scale=1.0＝ページが初めて読み込まれたときの初期のズーム倍率を「1.0倍」に設定するよう指示。)
-    <title>Web page</title>''(ウェブのタイトルを設定。)
-    <meta name="discription" content="sample text">''(name="discription"＝検索結果に表示される名前。content="sample text"＝nameの下に記載される説明書き。)
+                                                                        initial-scale=1.0＝ページが初めて読み込まれたときの初期のズーム倍率を「1.0倍」に設定するよう指示。-->
+    <title>Web page</title><!--ウェブのタイトルを設定。-->
+    <meta name="discription" content="sample text"><!--name="discription"＝検索結果に表示される名前。content="sample text"＝nameの下に記載される説明書き。-->
 </head>
-<body>''(bodyタグの中に実際に目に見える情報を記述していく。閉じタグも。)
+<body><!--bodyタグの中に実際に目に見える情報を記述していく。閉じタグも。-->
 
-    this is a pen''(単純に書くと表示される)
+    this is a pen<!--単純に書くと表示される-->
 
-    <h1>this is a pen</h1>''(hタグ。見出し用。)
+    <h1>this is a pen</h1><!--hタグ。見出し用。-->
     <h2>this is a pen</h2>
     <h3>this is a pen</h3>
     <h4>this is a pen</h4>
 
-    <a href="https://www.google.com/">his is a pen</a>''(aタグ。リンク用タグ。hrefの後にURLを記載。タグ間にテキスト記載。)
+    <a href="https://www.google.com/">his is a pen</a><!--aタグ。リンク用タグ。hrefの後にURLを記載。タグ間にテキスト記載。-->
 
-    <p><a href="https://www.google.com/">this is a pen</a></p>''(pタグ。段落タグ。左記はpタグの中にaタグが入っている。this is a pen全体にリンクがある。)
+    <p><a href="https://www.google.com/">this is a pen</a></p><!--pタグ。段落タグ。左記はpタグの中にaタグが入っている。this is a pen全体にリンクがある。-->
 
-    <h1>''(見出しの中にリンクがあり、penにのみリンクがある。)
+    <h1><!--見出しの中にリンクがあり、penにのみリンクがある。-->
         this is a
         <a href="https://www.google.com/">pen</a>
     </h1>
 
     <h1>Let's go to <a href="https://www.google.com/">google!</a></h1>
     
-    <span></span>''(インライン要素のフリータグ)
-    <div></div>''(ブロック要素のフリータグ)
+    <span></span><!--インライン要素のフリータグ-->
+    <div></div><!--ブロック要素のフリータグ-->
 
 </body>
 
@@ -38,7 +38,7 @@
 
 ***VS Codeでhtml5の自動入力すると下記となる***
 <!DOCTYPE html>
-<html lang="en">''(言語の設定。enはenglish、日本語にする場合はja)
+<html lang="en"><!--言語の設定。enはenglish、日本語にする場合はja-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
