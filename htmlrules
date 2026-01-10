@@ -3,7 +3,7 @@
 <html><!--2行目に記載。閉じタグも。-->
 <head><!--HTML文書の冒頭に配置され、その文書自体に関する**メタデータ（情報）**を定義するタグ。閉じタグも。-->
     <meta charset="utf-8"><!--文字コードは"utf-8"ですよ。-->
-    <meta name="viewport" content="width=device-width, initial-acal=1.0"><!--metaタグ＝ビューポート（ユーザーがウェブページを見るためのウィンドウ領域）をどのように制御するかを指示するもの。
+    <meta name="viewport" content="width=device-width, initial-scal=1.0"><!--metaタグ＝ビューポート（ユーザーがウェブページを見るためのウィンドウ領域）をどのように制御するかを指示するもの。
                                                                         width=device-width＝ビューポートの幅を、そのデバイスの実際の画面幅（デバイス非依存ピクセル）に合わせるよう指示。
                                                                         initial-scale=1.0＝ページが初めて読み込まれたときの初期のズーム倍率を「1.0倍」に設定するよう指示。-->
     <title>Web page</title><!--ウェブのタイトルを設定。-->
